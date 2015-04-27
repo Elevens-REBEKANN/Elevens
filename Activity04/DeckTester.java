@@ -54,5 +54,22 @@ public class DeckTester {
 		System.out.println();
 
 		/* *** TO BE COMPLETED IN ACTIVITY 4 *** */
+		System.out.println("*************************");
+		Deck myDeck = new Deck(ranks, suits, pointValues);
+        System.out.println(myDeck.toString());
+        myDeck.shuffle();
+        System.out.println(myDeck.toString());
+        
+        String[] myRanks = {"Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
+            "Jack", "Queen", "King"};
+        String[] mySuits = {"Clubs", "Diamonds", "Hearts", "Spades"};
+        int[] myPointValues = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
+        
+        System.out.println("*************************");
+        System.out.println("Test full 52 card deck");
+        Deck bigDeck = new Deck(myRanks, mySuits, myPointValues);
+        System.out.println(bigDeck.toString());
+        myDeck.shuffle();
+        System.out.println(bigDeck.toString());
 	}
 }
