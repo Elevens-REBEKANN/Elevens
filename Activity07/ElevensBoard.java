@@ -185,9 +185,7 @@ public class ElevensBoard {
      */
     public boolean isLegal(List<Integer> selectedCards) {
         /* *** TO BE IMPLEMENTED IN ACTIVITY 9 *** */
-       
     }
-
 
     /**
      * Determine if there are any legal plays left on the board.
@@ -199,7 +197,6 @@ public class ElevensBoard {
      */
     public boolean anotherPlayIsPossible() {
         /* *** TO BE IMPLEMENTED IN ACTIVITY 9 *** */
-        
     }
 
     /**
@@ -221,7 +218,6 @@ public class ElevensBoard {
      */
     private boolean containsPairSum11(List<Integer> selectedCards) {
         /* *** TO BE IMPLEMENTED IN ACTIVITY 9 *** */
-        
     }
 
     /**
@@ -234,7 +230,6 @@ public class ElevensBoard {
      */
     private boolean containsJQK(List<Integer> selectedCards) {
         /* *** TO BE IMPLEMENTED IN ACTIVITY 9 *** */
-        
     }
 
     /**
